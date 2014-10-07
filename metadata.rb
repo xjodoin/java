@@ -40,3 +40,14 @@ end
 
 suggests "windows"
 suggests "aws"
+
+attribute "java/jdk_version",
+:display_name => " JDK version to install",
+:description =>
+"",
+:required => "optional",
+:default => "6",
+:choice => ["6", "7","8"]
+
+
+
